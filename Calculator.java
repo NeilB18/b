@@ -5,6 +5,9 @@ public class Calculator{
     System.out.print("enter first num: ");
     int x = scan.nextInt();
     System.out.println();
+    System.out.print("enter second num: ");
+    int y = scan.nextInt();
+    System.our.println();
   }
 
 }
