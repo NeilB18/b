@@ -15,6 +15,20 @@ public class Calculator{
     if op.equals("+"){
       System.out.println("sum is "+x+y);
     }
+    else if (op.equals("-")) {
+       System.out.println("sum is "+x-y);
+    }
+    else if (op.equals("*")) {
+       System.out.println("sum is "+x*y);
+    }
+    else if (op.equals("/")) {
+       System.out.println("sum is "+x/y);
+    }
+    else{
+     
+       System.out.println("Not applicable");
+    
+    }
   }
 
 }
