@@ -8,6 +8,13 @@ public class Calculator{
     System.out.print("enter second num: ");
     int y = scan.nextInt();
     System.our.println();
+        System.out.print("enter opperation: ");
+    int op = scan.next();
+    System.our.println();
+
+    if op.equals("+"){
+      System.out.println("sum is "+x+y);
+    }
   }
 
 }
